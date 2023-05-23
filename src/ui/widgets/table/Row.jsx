@@ -6,13 +6,13 @@ function Row({ rowData }) {
 
   return (
 
-      <div style={{ display:'flex'}}>
+      <tr style={{ display:'flex'}}>
           {rowData.map( val =>
-
+             
               <Cell val={ val} />
           
           )}
-      </div>
+      </tr>
   );
 }
 

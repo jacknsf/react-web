@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Row from './ui/widgets/table/Row';
 
-import { rowData } from './ui/widgets/table/testData';
+import { cols, rows } from './ui/widgets/table/testData';
+import Table from './ui/widgets/table/Table';
 function App() {
 
     return (
         <>
-            <Row rowData={rowData}></Row>
+            <Table cols={cols} rows={rows}/>
         </>
   );
 }
