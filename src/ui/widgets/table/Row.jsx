@@ -1,7 +1,7 @@
 import React from 'react';
 import Cell from './Cell';
 
-function Row({ rowData }) {
+function Row({ rowData,cols }) {
 
 
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Columns from "./Columns"
 import Row from './Row';
 
-function Table({cols}, {rows}) {
+function Table({cols,rows}) {
   return (
 
       <table>
@@ -12,8 +12,8 @@ function Table({cols}, {rows}) {
 
               {rows.map(rowdata =>
 
-                
-                  <Row rowData={rowdata} />
+
+                  <Row rowData={rowdata} cols={cols} />
 
               )}
         
