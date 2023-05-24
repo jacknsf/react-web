@@ -1,2 +1,0 @@
-H:\proj\react-web\website1\website1\obj\Debug\website1.esproj.SuggestedBindingRedirects.cache
-H:\proj\react-web\website1\website1\obj\Debug\website1.esproj.CoreCompileInputs.cache
