@@ -2,42 +2,42 @@
 export const cols = [
     {
         id: 1,
-        text: "ÁÐ1",
+        text: "åˆ—1",
         type:"checkbox"
     },
     {
         id: 2,
-        text: "ÁÐ2",
+        text: "åˆ—2",
         type: "text"
     },
     {
         id: 3,
-        text: "ÁÐ3",
+        text: "åˆ—3",
         type: "text"
     },
     {
         id: 4,
-        text: "ÁÐ4",
+        text: "åˆ—4",
         type: "text"
     },
     {
         id: 5,
-        text: "ÁÐ5",
+        text: "åˆ—5",
         type: "text"
     },
     {
         id: 6,
-        text: "ÁÐ6",
+        text: "åˆ—6",
         type: "text"
     },
     {
         id: 7,
-        text: "ÁÐ7",
+        text: "åˆ—7",
         type: "text"
     },
     {
         id: 8,
-        text: "ÁÐ8",
+        text: "åˆ—8",
         type: "text"
     }
 
@@ -45,76 +45,84 @@ export const cols = [
 
 
 export const rows = [
+    {
+        id: 1,
+        rowdata:
 
-    [
-        {
-            id: 1,
-            value: "1"
-        },
-        {
-            id: 2,
-            value: "2"
-        },
-        {
-            id: 3,
-            value: "3"
-        },
-        {
-            id: 4,
-            value: "4"
-        },
-        {
-            id: 5,
-            value: "5"
-        },
-        {
-            id: 6,
-            value: "6"
-        },
-        {
-            id: 7,
-            value: "7"
-        },
-        {
-            id: 8,
-            value: "8"
-        }
-    ],
+            [
+                {
+                    id: 1,
+                    value: "1"
+                },
+                {
+                    id: 2,
+                    value: "2"
+                },
+                {
+                    id: 3,
+                    value: "3"
+                },
+                {
+                    id: 4,
+                    value: "4"
+                },
+                {
+                    id: 5,
+                    value: "5"
+                },
+                {
+                    id: 6,
+                    value: "6"
+                },
+                {
+                    id: 7,
+                    value: "7"
+                },
+                {
+                    id: 8,
+                    value: "8"
+                }
+            ]
+    },
 
-    [
-        {
-            id: 1,
-            value: "1"
-        },
-        {
-            id: 2,
-            value: "2"
-        },
-        {
-            id: 3,
-            value: "3"
-        },
-        {
-            id: 4,
-            value: "4"
-        },
-        {
-            id: 5,
-            value: "5"
-        },
-        {
-            id: 6,
-            value: "6"
-        },
-        {
-            id: 7,
-            value: "7"
-        },
-        {
-            id: 8,
-            value: "8"
-        }
-    ]
+    {
+        id: 2,
+        rowdata:
+            [
+                {
+                    id: 1,
+                    value: "1"
+                },
+                {
+                    id: 2,
+                    value: "2"
+                },
+                {
+                    id: 3,
+                    value: "3"
+                },
+                {
+                    id: 4,
+                    value: "4"
+                },
+                {
+                    id: 5,
+                    value: "5"
+                },
+                {
+                    id: 6,
+                    value: "6"
+                },
+                {
+                    id: 7,
+                    value: "7"
+                },
+                {
+                    id: 8,
+                    value: "8"
+                }
+            ]
+    }
 
 
 ]

@@ -6,14 +6,16 @@ function Table({cols,rows}) {
   return (
 
       <table>
+          <thead>
 
               <Columns colData={cols}></Columns>
+          </thead>
           <tbody>
 
-              {rows.map(rowdata =>
+              {rows.map(r =>
 
 
-                  <Row rowData={rowdata} cols={cols} />
+                  <Row rowData={r.rowdata} cols={cols} key={ r.id} />
 
               )}
         

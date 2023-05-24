@@ -7,9 +7,9 @@ function Row({ rowData,cols }) {
   return (
 
       <tr style={{ display:'flex'}}>
-          {rowData.map( val =>
-             
-              <Cell val={ val} />
+          {rowData.map(val =>
+
+              <Cell val={val} key={ val.id}  />
           
           )}
       </tr>

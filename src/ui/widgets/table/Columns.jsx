@@ -6,13 +6,13 @@ function Columns({ colData }) {
 
   return (
 
-      <thead style={{ display:'flex'}}>
-          {colData.map( val =>
+      <tr style={{ display:'flex'}}>
+          {colData.map(val =>
 
-              <Col val={val} />
+              <Col val={val} key={ val.id} />
           
           )}
-      </thead>
+      </tr>
   );
 }
 
